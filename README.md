@@ -2,4 +2,4 @@
 
 npm install
 # run project
-nom run dev
+npm run dev
