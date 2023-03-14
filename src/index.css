@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pets{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.pet-card{
+  width: 150px;
+  padding: 1rem 2rem;
+  background: orange;
+}
+.basket{
+  margin: 2rem auto;
+  width: 80%;
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  height: 150px;
+  background-color: pink;
+}
+
+.list{
+  width: 500px;
+  height: 400px;
+  background: blueviolet;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+}
+.list-pets{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: .5rem;
+  background: white;
+}
